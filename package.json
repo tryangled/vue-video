@@ -1,0 +1,34 @@
+{
+  "private": false,
+  "name": "@tryangled/vue-video",
+  "version": "1.0.0",
+  "description": "vue plugin to create a text area to take the URL of a youtube/vimeo video and return the actual link to the video. It will also validate if the video exsists.",
+  "main": "./dist/index.js",
+  "author": "Vinay Samtani",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vue serve VueVideo.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "keywords": [
+    "vue",
+    "input",
+    "youtube",
+    "vimeo",
+    "thumbnail",
+    "components",
+    "video list",
+    "thumbnail images"
+  ],
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {}
+}
